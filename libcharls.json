@@ -1,0 +1,17 @@
+{
+    "name": "libcharls",
+    "description": "JPEG-LS image decoder",
+    "filters":["jlsdec"],
+    "help": "This filter decodes JPEG-LS (ISO/IEC 14495-1) images using CharLS.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libcharls.accessor",
+    "filter_source":{
+        "jlsdec" : "dec_jls.c"
+    },
+    "extension":{
+      "jls" : "img"
+    },
+    "licence_required":false
+}
