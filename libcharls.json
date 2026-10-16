@@ -13,6 +13,10 @@
     "extension":{
       "jls" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "JPEG-LS, royalty-free licence from HP",
+        "checked": "2026-10-16"
+    }
 }
