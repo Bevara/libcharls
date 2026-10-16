@@ -1,5 +1,6 @@
 {
     "name": "libcharls",
+    "version": "1.0.1",
     "description": "JPEG-LS image decoder",
     "filters":["jlsdec"],
     "help": "This filter decodes JPEG-LS (ISO/IEC 14495-1) images using CharLS.",
