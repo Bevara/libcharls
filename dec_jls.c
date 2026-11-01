@@ -17,8 +17,8 @@
 
 /* CharLS reports errors by throwing, and turns the exception back into an
  * error code in its C API. The host solver exports the rest of the C++ ABI
- * this module needs, but not __cxa_throw (checked on both solver_1 and
- * solver_minimal_1), so without this definition the side module has an
+ * this module needs, but not __cxa_throw (checked on both mm_solver_1.0.1 and
+ * mm_solver_minimal_1.0.1), so without this definition the side module has an
  * unresolved import and never instantiates.
  *
  * Consequence to be aware of: a JPEG-LS stream that makes CharLS throw ends
