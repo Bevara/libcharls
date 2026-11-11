@@ -2,19 +2,27 @@
     "name": "libcharls",
     "version": "1.0.2",
     "description": "JPEG-LS image decoder",
-    "filters":["jlsdec"],
+    "filters": [
+        "jlsdec"
+    ],
     "help": "This filter decodes JPEG-LS (ISO/IEC 14495-1) images using CharLS.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/libcharls.accessor",
-    "filter_source":{
-        "jlsdec" : "dec_jls.c"
+    "sources": "https://bevara.ddns.net/sources/libcharls.accessor",
+    "filter_source": {
+        "jlsdec": "dec_jls.c"
     },
-    "extension":{
-      "jls" : "img"
+    "extension": {
+        "jls": "img"
     },
-    "using": ["mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "JPEG-LS, royalty-free licence from HP",
